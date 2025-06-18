@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "clipmod",
+  "version": "1.0.0",
+  "name": "ClipMod",
+  "description": "Provides VClip and HClip commands.",
+  "authors": ["axtonfn"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.axtonfn.clipmod.ClipMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.10",
+    "fabric": "*",
+    "minecraft": "1.21.4"
+  }
+}
